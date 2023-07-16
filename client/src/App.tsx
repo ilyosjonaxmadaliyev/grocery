@@ -6,7 +6,7 @@ import Login from "./Login";
 function App() {
   const { items } = useGrocery();
   return (
-    <div>
+    <div className="section-center">
     <section className="section-center">
       <Link to={"/login"}>Login</Link>
       <form className="grocery-form">
