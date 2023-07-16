@@ -1,12 +1,10 @@
 import { Link } from "react-router-dom";
 import GroceryItem from "./components/GroceryItem";
 import useGrocery from "./hooks/useGrocery";
-import Login from "./Login";
 
 function App() {
   const { items } = useGrocery();
   return (
-    <div className="section-center">
     <section className="section-center">
       <Link to={"/login"}>Login</Link>
       <form className="grocery-form">
@@ -32,8 +30,6 @@ function App() {
         <button className="clear-btn">clear items</button>
       </div>
     </section>
-      <Login/>
-    </div>
   );
 }
 
