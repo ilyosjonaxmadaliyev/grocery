@@ -16,7 +16,7 @@ const Login = () => {
   return (
     <TelegramLoginButton
       dataOnauth={handleTelegramResponse}
-      botName="groceryfn4bot"
+      botName="grecoryilyosbot"
     />
   );
 };
