@@ -6,7 +6,7 @@ function App() {
   const { items } = useGrocery();
   return (
     <section className="section-center">
-      <Link to={"/login"}>Login</Link>
+      <Link className="login" to={"/login"}><b>Log in</b></Link>
       <form className="grocery-form">
         <p className="alert"></p>
         <h3>grocery bud</h3>
