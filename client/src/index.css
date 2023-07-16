@@ -52,9 +52,6 @@ body {
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: .875rem;
-  display:flex;
-  align-items: center;
-  justify-content: center;
 }
 
 ul {
@@ -150,6 +147,12 @@ p {
   color: var(--clr-white);
   background: var(--clr-black)
 }
+.telegramBtn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 .section {
   padding: 5rem 0
@@ -157,9 +160,11 @@ p {
 
 .section-center {
   width: 90vw;
-  margin: 0 auto;
   max-width: 35rem;
-  margin-top: 8rem
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 @media screen and (min-width: 992px) {

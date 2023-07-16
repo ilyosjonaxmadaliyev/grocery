@@ -5,10 +5,13 @@ const Login = () => {
     console.log(user);
 };
   return (
-      <TelegramLoginButton
+    <div className="telegramBtn">
+       <TelegramLoginButton
       dataOnAuth={ handleTelegramResponse }
       botName="grecoryilyosbot"
     />
+    </div>
+   
   );
 };
 
